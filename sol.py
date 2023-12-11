@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import mplhep
 from matplotlib import colors
 
 fig = plt.figure()
