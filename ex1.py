@@ -27,12 +27,18 @@ fig, ax = plt.subplots()
 
 ax.plot(x, y1, color = 'blue', linestyle = 'none', marker = 'o', markersize = '5')
 ax.plot(x, y2, color = 'red', linestyle = 'dashed', linewidth = '3')
-ax.plot(x, y3, color = 'green', linestyle = 'dashdot', linewidth = '5')
+ax.plot(x, y3, color = 'green', linestyle = 'dashdot', linewidth = '5', alpha = 0.5)
 
 plt.yscale("log")
+ax.set_ylabel("y axis name", loc = 'center', size = 10)
+ax.set_xlabel("x axis name", loc = 'center', size = 10)
+ax.set_title("title name", loc = 'center', size = 15)
 ax.legend(['data 1', 'data 2', 'data 3'], loc = 'upper left')
 
+#Ah much better
 
 plt.show()
+
+
 
         
