@@ -2,11 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# Generate random data
 np.random.seed(42)
 data = np.random.normal(size=(1000, 3))
 
-# Create a 3D histogram plot
+#3D histogram plot
 fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111, projection='3d')
 
